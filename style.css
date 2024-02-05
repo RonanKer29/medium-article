@@ -47,7 +47,7 @@ h2 {
 
 .container {
   width: 700px;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .container p {
@@ -80,4 +80,22 @@ a {
     rgba(125, 255, 179, 1),
     rgba(125, 255, 179, 1)
   );
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
 }
