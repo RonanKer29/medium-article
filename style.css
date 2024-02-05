@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: "Lora", serif;
+  color: #494949;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 120px;
+  padding-right: 0px;
+  padding-bottom: 120px;
+  padding-left: 0px;
+}
+
+.banner h1 {
+  font-size: 40px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #a0a0a0;
+  font-weight: normal;
+  margin-top: 25px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.container p {
+  margin-bottom: 25px;
+}
+
+.link-medium {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(233, 253, 240, 1),
+    rgba(233, 253, 240, 1)
+  );
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container a {
+  margin-bottom: 25px;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(125, 255, 179, 1),
+    rgba(125, 255, 179, 1)
+  );
+}
